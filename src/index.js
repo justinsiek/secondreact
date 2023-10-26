@@ -10,7 +10,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Navbar />
-    <div className='centerContainer'>
+    <div className='centercontainer'>
       <CenterText />
       <SignUpButton />
       <LogInButton />
