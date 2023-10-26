@@ -1,7 +1,7 @@
 .loginbutton {
     padding:5px;
     width: 100px;
-    background-color: rgb(240, 240, 240);
+    background-color: rgba(240, 240, 240, 0);
     color:black;
     margin-right: auto;
     margin-left: auto;
