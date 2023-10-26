@@ -4,13 +4,18 @@ import CenterText from './CenterText';
 import Navbar from './Navbar';
 import './main.css';
 import LogInButton from './LogInButton';
+import SignUpButton from './SignUpButton';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Navbar />
-    <CenterText />
-    <LogInButton />
+    <div className='centerContainer'>
+      <CenterText />
+      <SignUpButton />
+      <LogInButton />
+    </div>
+    
   </React.StrictMode>
 );
 
