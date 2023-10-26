@@ -1,10 +1,10 @@
-div {
+.navbar {
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     text-align:center;
 }
-a {
+.navbutton {
     color:black;
     text-decoration: none;
     padding: 30px;
